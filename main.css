@@ -208,6 +208,10 @@ p {
         margin: 0 auto;
     }
 
+    .no-results {
+        margin-top: 2vh;
+    }
+
     .pokemon-information img{
         width: 100%;
         border-radius: 5px;
@@ -269,6 +273,7 @@ p {
         justify-content: space-around;
         align-items: center;
         min-height: 4vh;
+        z-index: 10;
     }
 
     .pokemon {
